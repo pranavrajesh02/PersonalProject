@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Testing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main container -->
+  <div class="container">
     <h1 class="myh1">Testing JavaScript</h1>
-   
-    <button id="button2" > ClickMe
-       
-    </button>
-    <br>
-    <textarea id="myTextArea" rows="20" cols="100">
-      </textarea>
-    </div>
-<div>
-  <br>
-    <label > User Name: </label>
-    <input id="userNameInput"> <br>
-    <label>Password: </label>
-    <input id="passwordInput"> <br>
-<button id="NewButton">Click</button>
-</div>
-       <script src="myscripts2.js"> </script>
-  </body>
+    <button id="button2">Click Me</button>
+    <br><br>
+    <textarea id="myTextArea" rows="10" cols="80" placeholder="Output will appear here..."></textarea>
+  </div>
+
+  <!-- User login section -->
+  <div class="login-container">
+    <h2>Login</h2>
+    <label for="userNameInput">User Name:</label>
+    <input type="text" id="userNameInput" placeholder="Enter your username">
+    <br><br>
+    <label for="passwordInput">Password:</label>
+    <input type="password" id="passwordInput" placeholder="Enter your password">
+    <br><br>
+    <button id="NewButton">Submit</button>
+  </div>
+
+  <script src="myscripts2.js"></script>
+</body>
 </html>
