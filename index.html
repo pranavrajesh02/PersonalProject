@@ -8,76 +8,96 @@
 </head>
 <body>
   <!-- Header Section -->
-  <div id="header">
+  <header id="header">
     <h1 class="myh1">Pranav Rajesh</h1>
-  </div>
+  </header>
 
   <!-- Content Section -->
-  <div id="content">
+  <main id="content">
     <div class="content-container">
       <!-- Left Section: Image -->
       <div class="image-container">
-        <img class="myImage" src="PranavRajesh.jpg" alt="Pranav Rajesh Profile">
+        <img class="myImage" src="PranavRajesh.jpg" alt="Pranav Rajesh Profile" width = 200 px, height = 200 px>
       </div>
 
       <!-- Right Section: Education and Experience -->
       <div class="details-container">
-        <div id="introduction">
-          <p>
-            Pranav Rajesh is a junior at The Ohio State University, pursuing a dual degree in Management Information
-            Systems (MIS) and Cognitive & Computational Neuroscience. He is passionate about the intersection of technology and consulting.
-          </p>
+        <section id="introduction">
+          <p>Pranav Rajesh is a junior at The Ohio State University, pursuing a dual degree in Management Information Systems (MIS) and Cognitive & Computational Neuroscience. He is passionate about the intersection of technology and consulting.</p>
           <strong><a href="https://github.com/pranavrajesh02">Visit my github</a><br></strong>
           <strong><a href="page2.html">Test Javascript</a></strong>
-        </div>
+        </section>
 
-        <div id="education">
+        <section id="education">
           <h2>Education</h2>
           <ul>
-            <li>
-              <strong>B.S in Business Administration in Management Information Systems</strong>,
-              The Ohio State University, 2026
-            </li>
-            <li>
-              <strong>B.S in Cognitive and Computational Neuroscience</strong>,
-              The Ohio State University, 2026
-            </li>
+            <li><strong>B.S in Business Administration in Management Information Systems</strong>, The Ohio State University, 2026</li>
+            <li><strong>B.S in Cognitive and Computational Neuroscience</strong>, The Ohio State University, 2026</li>
           </ul>
-        </div>
+        </section>
 
-        <div id="professional-experience">
+        <section id="professional-experience">
           <h2>Professional Experience</h2>
-          <ol>
+          <ul>
             <li>Chase Leadership Development Analyst, JP Morgan Chase: May 2025</li>
             <li>Business Systems Analyst, Marathon Petroleum Corporation: May 2024 - August 2024</li>
             <li>Data Management Assistant, The Ohio State University, Aug. 2024 - Present</li>
             <li>Executive Assistant, The Ohio State University, Aug. 2023 - Present</li>
-          </ol>
-        </div>
+          </ul>
+        </section>
 
-        <div id="extracurricular">
+        <section id="extracurricular">
           <h2>Extracurricular</h2>
-          <ol>
+          <ul>
             <li>Education Director (Former Liason), Big Data Analytics Association (BDAA): Dec. 2023 - Present</li>
-            <li>Executive Director, I-CAN Do Neuroscience (I-CAN),  - Present</li>
+            <li>Executive Director, I-CAN Do Neuroscience (I-CAN), - Present</li>
             <li>Secretary, Science Olympiad, March. 2023 - Present</li>
-          </ol>
-        </div>
+          </ul>
+        </section>
 
+        <section id="interests">
+          <h2>Interests</h2>
+          <table id="mytable">
+            <tr>
+              <th>Professional Skills</th>
+              <th>Personal Interests</th>
+            </tr>
+            <tr>
+              <td>Power BI</td>
+              <td>Cognitive Science</td>
+            </tr>
+            <tr>
+              <td>Tableau</td>
+              <td>Economics</td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td>Reading</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>Biking</td>
+            </tr>
+            <tr>
+              <td>Access</td>
+              <td>Business Intelligence</td>
+            </tr>
+          </table>
+        </section>
       </div>
     </div>
-  </div>
+  </main>
 
   <!-- Footer Section -->
-  <div id="footer">
+  <footer id="footer">
     <h3>Contact Me</h3>
     <form action="index.html" method="get">
       <label for="email">Email:</label>
-      <input type="text" id="email" name="email" value="rajesh.30@osu.edu"><br>
+      <input type="text" id="email" name="email" value="rajesh.30@osu.edu">
       <label for="feedback">Feedback:</label>
-      <input id="feedback" name="feedback" value="This is a sample website"><br>
-      <input id="mybutton" type="submit" value="Submit">
+      <input type="text" id="feedback" name="feedback" value="This is a sample website">
+      <input type="submit" value="Submit">
     </form>
-  </div>
+  </footer>
 </body>
 </html>
